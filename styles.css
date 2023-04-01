@@ -1,0 +1,114 @@
+@media screen and (max-width: 500px) {
+    html {
+      font-size: 80%;
+    }
+  }
+  
+  html {
+  scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  #header {
+    background: yellowgreen;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    top: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    }
+  
+  #header-img {
+    width: 3.5rem;
+  }
+  
+  #title {
+    margin: 0 auto;
+    font-size: 1.35rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 25%;
+  }
+  
+  #nav-bar {
+    width: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.5rem;
+    color: black;
+    box-shadow: 0.15rem 0.15rem black;
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(191, 191, 87);
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  main {
+    margin-top: 6rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid gray;
+  }
+  
+  .product-wrapper {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: 1rem;
+  }
+  
+  section iframe, section img {
+    width: 400px;
+    height: 300px;
+  }
+  
+  section p {
+    padding: 1rem;
+  }
+  
+  fieldset {
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  
+  footer {
+    border-top: 1px solid black;
+    margin-top: 4rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: evenly-spaced;
+    align-items: center;
+    padding: 1rem;
+  }
